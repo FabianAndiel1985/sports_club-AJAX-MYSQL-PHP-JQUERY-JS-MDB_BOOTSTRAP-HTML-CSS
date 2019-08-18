@@ -1,0 +1,82 @@
+/*all sites*/
+
+body {
+	background-color: black;
+	font-weight: bold;
+	color: white;
+}
+
+li {
+	list-style: none;
+}
+
+
+/*landing page*/
+
+		#landing_body {
+		  background-image: url('../images/landing_img.jpg');
+		  background-repeat: no-repeat;
+		  background-size:cover;
+		  background-position:center center;  
+		  background-attachment: fixed;	
+
+		}
+
+		#landing_row_hor {
+			display:flex;
+			justify-content: center;
+		}
+
+		#landing_row_ver {
+			width:400px;
+			height:100px;
+		/*	border:2px solid red;*/
+			height:745px;
+			display: flex;
+			align-items: center;
+
+		}
+
+		#landing_links_container {
+			width:400px;
+			height:200px;
+			border:2px solid yellow;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.landing_link_container {
+			text-align: center;
+		}
+		
+		.landing_link {
+			color:white;
+			font-weight: bold;
+			font-size: 40px;
+		}
+
+/*b2b page*/
+
+
+		.list-group-item {
+			background-color: black;
+		}
+
+
+/* details site */
+
+	.first {
+	border-top: none !important;
+	}
+
+	td, th {
+	color:white;
+	}
+
+
+/* contact page */
+
+	section {
+		color:white;
+	}
